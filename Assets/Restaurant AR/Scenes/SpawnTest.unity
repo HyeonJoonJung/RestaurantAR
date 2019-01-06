@@ -2494,7 +2494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceImage: {fileID: 11400000, guid: ad0529a18d68e4a868fcc5375a4d1538, type: 2}
-  prefabToGenerate: {fileID: 1283292900242102, guid: 8855f6e449b9d4d3fae7f0a1a5ff9c2f,
+  prefabToGenerate: {fileID: 605842638638038714, guid: 72a181abc2410450c90ec58754b69bec,
     type: 3}
 --- !u!1 &982025434
 GameObject:
