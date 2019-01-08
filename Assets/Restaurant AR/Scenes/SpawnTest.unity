@@ -1507,7 +1507,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 604581258}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563725}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &604581258
@@ -1626,6 +1637,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613738958}
   m_CullTransparentMesh: 0
+--- !u!1001 &615563722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 605842638638038714, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_Name
+      value: FoodDisplayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 605842638638038714, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72a181abc2410450c90ec58754b69bec, type: 3}
+--- !u!1 &615563723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 605842638638038714, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &615563724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4670763528048574366, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615563723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17205b2e1135444bbc72f4363727aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &615563725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5574927292863852659, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615563726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3194151970455197504, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615563727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4540744601834233347, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615563728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6893861862929187823, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615563729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7211959263201831325, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615563730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 649140991838887276, guid: 72a181abc2410450c90ec58754b69bec,
+    type: 3}
+  m_PrefabInstance: {fileID: 615563722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &631170614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,7 +2549,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 868997253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563728}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &868997253
@@ -2459,7 +2609,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 925273666}
-  - component: {fileID: 925273667}
+  - component: {fileID: 925273668}
   m_Layer: 0
   m_Name: Food Image Anchor
   m_TagString: Untagged
@@ -2481,7 +2631,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &925273667
+--- !u!114 &925273668
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2490,12 +2640,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 925273665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b2be1c5634b84e8080b2a2491eca344, type: 3}
+  m_Script: {fileID: 11500000, guid: 72ff8c302213b4fb1aedc678aa49fb45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   referenceImage: {fileID: 11400000, guid: ad0529a18d68e4a868fcc5375a4d1538, type: 2}
-  prefabToGenerate: {fileID: 605842638638038714, guid: 72a181abc2410450c90ec58754b69bec,
-    type: 3}
+  foodDisplayer: {fileID: 615563723}
 --- !u!1 &982025434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,7 +3251,7 @@ MonoBehaviour:
   enableAutoFocus: 1
   environmentTexturing: 0
   detectionImages: {fileID: 11400000, guid: ed58fcfc7bdbe4c2c9968a5512d4cb24, type: 2}
-  maximumNumberOfTrackedImages: 2
+  maximumNumberOfTrackedImages: 1
   detectionObjects: {fileID: 0}
 --- !u!4 &1121666033
 Transform:
@@ -3611,7 +3760,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1631650548}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563726}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1631650548
@@ -3729,7 +3889,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1658257250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563729}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1658257250
@@ -4050,7 +4221,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1885745199}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563730}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1885745199
@@ -4247,7 +4429,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1968706401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615563724}
+        m_MethodName: OnFoodSelect
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 615563727}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1968706401
