@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Restaurant AR/Scenes/SpawnTest.unity
-    guid: 1ced35214248b4d6cb0d33b537b96cf3
+    path: Assets/Restaurant AR/Scenes/Main.unity
+    guid: c9afb4799a0fd4e7eb356590281a7cab
   m_configObjects: {}
