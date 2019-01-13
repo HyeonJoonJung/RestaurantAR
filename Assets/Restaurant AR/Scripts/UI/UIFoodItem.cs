@@ -5,24 +5,13 @@ using UnityEngine;
 
 public class UIFoodItem : MonoBehaviour
 {
-    [SerializeField] private GameObject orderBarUI;
-    [SerializeField] private GameObject menuUI;
     [SerializeField] private FoodDisplayer foodDispalyer;
 
     public void OnButtonPress(GameObject food)
     {
-        HideMenuUI();
-        ShowOrderBarUI();
         foodDispalyer.OnFoodSelect(food);
-    }
 
-    private void HideMenuUI()
-    {
-        menuUI.SetActive(false);    // TODO: Scale down and set inactive
-    }
-
-    private void ShowOrderBarUI()
-    {
-        orderBarUI.gameObject.SetActive(true);  // TODO: set active and scale up
+        UIManager.Instance.OrderBar.SetActive(true);
+        UIManager.Instance.Menu.SetActive(false);
     }
 }

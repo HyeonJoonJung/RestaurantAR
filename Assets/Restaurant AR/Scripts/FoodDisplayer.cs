@@ -14,7 +14,7 @@ public class FoodDisplayer : MonoBehaviour
         ShowSelectedFood();
     }
 
-    private void HideAllFood()
+    public void HideAllFood()
     {
         foreach (Transform child in transform)
         {
