@@ -362,7 +362,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   ignoreTimeScale: 1
   delay: 0
-  duration: 5
+  duration: 4
   steeperCurves: 0
   tweenGroup: 0
   useFixedUpdate: 0
