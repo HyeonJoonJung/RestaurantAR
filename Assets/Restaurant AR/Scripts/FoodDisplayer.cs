@@ -7,9 +7,9 @@ public class FoodDisplayer : MonoBehaviour
     private GameObject selectedFood;
     public bool IsInitialized { get; set; }
 
-    public void OnFoodSelect(GameObject foodPrefab)
+    public void OnFoodSelect(GameObject food)
     {
-        selectedFood = foodPrefab;
+        selectedFood = food;
         HideAllFood();
         ShowSelectedFood();
     }
