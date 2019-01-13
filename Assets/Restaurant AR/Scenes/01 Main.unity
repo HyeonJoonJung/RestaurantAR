@@ -1133,7 +1133,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 64, y: 64, z: 0}
+  m_Size: {x: 32, y: 32, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &539765360 stripped
 GameObject:
@@ -1157,6 +1157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540744601834233347, guid: 72a181abc2410450c90ec58754b69bec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
         type: 3}
@@ -1211,11 +1216,6 @@ PrefabInstance:
     - target: {fileID: 5214500280128958559, guid: 72a181abc2410450c90ec58754b69bec,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540744601834233347, guid: 72a181abc2410450c90ec58754b69bec,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5186712979275170197, guid: 72a181abc2410450c90ec58754b69bec,
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.732438
+  aspectRatio: 2.1157024
 --- !u!114 &813729528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,7 +2555,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 7.09
+  aspectRatio: 20.48
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: c3a89f8a29e074693a97a94d8b355cc1, type: 3}
   mFont: {fileID: 0}
@@ -2691,7 +2691,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.732438
+  aspectRatio: 2.1157024
 --- !u!114 &1317420608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3698,7 +3698,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 64, y: 64, z: 0}
+  m_Size: {x: 32, y: 32, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1641118015
 GameObject:
@@ -3773,7 +3773,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.545
+  aspectRatio: 10.24
 --- !u!65 &1641118018
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4618,7 +4618,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.46158853
+  aspectRatio: 1.3333334
 --- !u!1 &2024156231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5186712979275170197, guid: 72a181abc2410450c90ec58754b69bec,
