@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject OrderBar;
+    public GameObject OrderPlacedText;
 
     public static UIManager Instance = null;
 

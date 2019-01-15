@@ -4,8 +4,6 @@ using UnityEngine.iOS;
 
 public class StatusBarDisplayer : MonoBehaviour
 {
-    Vector2 screen = NGUITools.screenSize;
-
     private void Start()
     {
         ShowStatusBarIfXorXs();
