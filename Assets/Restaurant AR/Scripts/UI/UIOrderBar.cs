@@ -25,11 +25,12 @@ public class UIOrderBar : MonoBehaviour
 
     public void OnAddButtonPress()
     {
-        //Cart cart = cartButton.GetComponent<Cart>().Add();
+        Cart cart = cartButton.GetComponent<Cart>();
+        cart.Add(foodDisplayer.selectedFood);
     }
 
     public void OnCartButtonPress()
     {
-
+        cartButton.GetComponent<Cart>().ShowItems();
     }
 }
