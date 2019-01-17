@@ -5,34 +5,31 @@ using UnityEngine;
 public class UIOrderBar : MonoBehaviour
 {
     [SerializeField] private FoodDisplayer foodDisplayer;
+    [SerializeField] private GameObject menuButton;
+    [SerializeField] private GameObject addButton;
+    [SerializeField] private GameObject cartButton;
 
-    public void OnReturnButtonPress()
+    public void OnMenuButtonPress()
     {
-        UIManager.Instance.Menu.SetActive(true);
-        gameObject.SetActive(false);
         foodDisplayer.HideAllFood();
-    }
-
-    public void OnOrderButtonPress()
-    {
-        UIManager.Instance.OrderPlacedText.SetActive(true);
-        ToggleChildren(false);
-        StartCoroutine(ReturnToMenu());
-    }
-
-    private IEnumerator ReturnToMenu()
-    {
-        yield return new WaitForSeconds(3f);
-        UIManager.Instance.Menu.SetActive(true);
-        ToggleChildren(true);
-        gameObject.SetActive(false);
-    }
-
-    private void ToggleChildren(bool isActive)
-    {
-        for (int i = 0; i < transform.childCount; i++)
+        if (UIManager.Instance.Menu.activeInHierarchy == false)
         {
-            transform.GetChild(i).gameObject.SetActive(isActive);
+            UIManager.Instance.Menu.SetActive(true);
         }
+    }
+
+    public void ToggleAddButton(bool show)
+    {
+        addButton.SetActive(show);
+    }
+
+    public void OnAddButtonPress()
+    {
+        //Cart cart = cartButton.GetComponent<Cart>().Add();
+    }
+
+    public void OnCartButtonPress()
+    {
+
     }
 }

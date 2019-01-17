@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FoodDisplayer : MonoBehaviour
 {
-    private GameObject selectedFood;
+    public GameObject selectedFood { get; private set; }
     public bool IsInitialized { get; set; }
 
     public void OnFoodSelect(GameObject food)
@@ -20,10 +20,13 @@ public class FoodDisplayer : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
+
+        UIManager.Instance.OrderBar.GetComponent<UIOrderBar>().ToggleAddButton(false);
     }
 
     private void ShowSelectedFood()
     {
         selectedFood.gameObject.SetActive(true);
+        UIManager.Instance.OrderBar.GetComponent<UIOrderBar>().ToggleAddButton(true);
     }
 }
