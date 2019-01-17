@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FoodDisplayer : MonoBehaviour
 {
-    public GameObject selectedFood { get; private set; }
+    public Food selectedFood { get; private set; }
     public bool IsInitialized { get; set; }
 
-    public void OnFoodSelect(GameObject food)
+    public void OnFoodSelect(Food food)
     {
         selectedFood = food;
         HideAllFood();
