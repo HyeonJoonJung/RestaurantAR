@@ -26,7 +26,7 @@ public class Cart : MonoBehaviour
 
     public void ShowItems()
     {
-        // TODO
+
     }
 
     private void UpdateItemCount()

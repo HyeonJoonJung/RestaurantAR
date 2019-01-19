@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class UIOrderBar : MonoBehaviour
+public class UIButtonBar : MonoBehaviour
 {
     [SerializeField] private FoodDisplayer foodDisplayer;
     [SerializeField] private GameObject menuButton;
@@ -12,10 +10,8 @@ public class UIOrderBar : MonoBehaviour
     public void OnMenuButtonPress()
     {
         foodDisplayer.HideAllFood();
-        if (UIManager.Instance.Menu.activeInHierarchy == false)
-        {
-            UIManager.Instance.Menu.SetActive(true);
-        }
+        UIManager.Instance.MenuPanel.SetActive(true);
+        UIManager.Instance.CartPanel.SetActive(false);
     }
 
     public void ToggleAddButton(bool show)
@@ -31,6 +27,9 @@ public class UIOrderBar : MonoBehaviour
 
     public void OnCartButtonPress()
     {
+        foodDisplayer.HideAllFood();
+        UIManager.Instance.MenuPanel.SetActive(false);
+        UIManager.Instance.CartPanel.SetActive(true);
         cartButton.GetComponent<Cart>().ShowItems();
     }
 }

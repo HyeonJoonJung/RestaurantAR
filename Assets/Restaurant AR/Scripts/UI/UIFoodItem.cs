@@ -7,7 +7,7 @@ public class UIFoodItem : MonoBehaviour
     public void OnButtonPress(Food food)
     {
         foodDispalyer.OnFoodSelect(food);
-        UIManager.Instance.OrderBar.SetActive(true);
-        UIManager.Instance.Menu.SetActive(false);
+        UIManager.Instance.ButtonBar.SetActive(true);
+        UIManager.Instance.MenuPanel.SetActive(false);
     }
 }

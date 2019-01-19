@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject Menu;
-    public GameObject OrderBar;
-    public GameObject FeedbackText;
+    public GameObject MenuPanel;
+    public GameObject CartPanel;
+    public GameObject ButtonBar;
 
     public static UIManager Instance = null;
 

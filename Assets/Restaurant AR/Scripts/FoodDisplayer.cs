@@ -21,12 +21,12 @@ public class FoodDisplayer : MonoBehaviour
             child.gameObject.SetActive(false);
         }
 
-        UIManager.Instance.OrderBar.GetComponent<UIOrderBar>().ToggleAddButton(false);
+        UIManager.Instance.ButtonBar.GetComponent<UIButtonBar>().ToggleAddButton(false);
     }
 
     private void ShowSelectedFood()
     {
         selectedFood.gameObject.SetActive(true);
-        UIManager.Instance.OrderBar.GetComponent<UIOrderBar>().ToggleAddButton(true);
+        UIManager.Instance.ButtonBar.GetComponent<UIButtonBar>().ToggleAddButton(true);
     }
 }
