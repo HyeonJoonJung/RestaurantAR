@@ -40,7 +40,6 @@ public class FoodDisplayer : MonoBehaviour
 
     private void ShowSelectedFood()
     {
-        Debug.Log("Showing selected food");
         selectedFood.gameObject.SetActive(true);
         UIManager.Instance.ButtonBar.GetComponent<ButtonBar>().ToggleAddButton(true);
     }

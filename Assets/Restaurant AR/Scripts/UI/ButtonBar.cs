@@ -2,34 +2,41 @@
 
 public class ButtonBar : MonoBehaviour
 {
-    [SerializeField] private GameObject menuButton;
     [SerializeField] private GameObject addButton;
-    [SerializeField] private GameObject cartButton;
 
     public void OnMenuButtonPress()
     {
+        if (UIManager.Instance.MenuPanel.activeInHierarchy)
+        {
+            return;
+        }
+
         FoodDisplayer.Instance.HideAllFood();
         UIManager.Instance.MenuPanel.SetActive(true);
         UIManager.Instance.CartPanel.SetActive(false);
+        Cart.Instance.DestroyItemListings();
     }
 
     public void ToggleAddButton(bool show)
     {
-        Debug.Log("Toggling Add button, True: show, false: hide - " + show);
         addButton.SetActive(show);
     }
 
     public void OnAddButtonPress()
     {
-        Cart cart = cartButton.GetComponent<Cart>();
-        cart.Add(FoodDisplayer.Instance.selectedFood);
+        Cart.Instance.AddToCart(FoodDisplayer.Instance.selectedFood);
     }
 
     public void OnCartButtonPress()
     {
+        if (UIManager.Instance.CartPanel.activeInHierarchy)
+        {
+            return;
+        }
+
         FoodDisplayer.Instance.HideAllFood();
         UIManager.Instance.MenuPanel.SetActive(false);
         UIManager.Instance.CartPanel.SetActive(true);
-        cartButton.GetComponent<Cart>().ShowItems();
+        Cart.Instance.DisplayItems();
     }
 }
