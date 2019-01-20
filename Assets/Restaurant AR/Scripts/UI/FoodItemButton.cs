@@ -17,4 +17,11 @@ public class FoodItemButton : MonoBehaviour
         label.text = linkedFood.Name;
         price.text = linkedFood.Price.ToString();
     }
+
+    public void OnButtonPress()
+    {
+        FoodDisplayer.Instance.OnFoodSelect(linkedFood);
+        UIManager.Instance.CartPanel.SetActive(false);
+        UIManager.Instance.MenuPanel.SetActive(false);
+    }
 }

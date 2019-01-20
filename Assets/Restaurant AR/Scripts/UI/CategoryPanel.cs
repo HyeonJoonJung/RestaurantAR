@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UICategory : MonoBehaviour
+public class CategoryPanel : MonoBehaviour
 {
     [SerializeField] private GameObject[] categories = new GameObject[3];
-    [SerializeField] private GameObject[] items = new GameObject[3];
 
     private Dictionary<GameObject, GameObject> categoryItemPairs = new Dictionary<GameObject, GameObject>();
     private int currentCategoryIndex;
 
-    private void Awake()
+    private void Start()
     {
         PopulateDictionary();
     }
@@ -49,7 +48,7 @@ public class UICategory : MonoBehaviour
     {
         for (int i = 0; i < categories.Length; i++)
         {
-            categoryItemPairs.Add(categories[i], items[i]);
+            categoryItemPairs.Add(categories[i], UIManager.Instance.ItemsPanel.GetComponent<ItemsPanel>().Items[i]);
         }
     }
 

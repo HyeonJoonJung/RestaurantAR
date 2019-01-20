@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public GameObject MenuPanel;
+    public GameObject ItemsPanel;
     public GameObject CartPanel;
     public GameObject ButtonBar;
 
