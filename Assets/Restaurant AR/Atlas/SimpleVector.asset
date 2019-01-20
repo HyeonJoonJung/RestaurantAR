@@ -14,97 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 0fadb42a46f1c4d0ba8bc2d2fefdb4d6, type: 2}
   mSprites:
-  - name: icons8-add
-    x: 588
-    y: 1224
-    width: 23
-    height: 23
+  - name: menu
+    x: 481
+    y: 302
+    width: 432
+    height: 512
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
-  - name: icons8-restaurant_menu
-    x: 1796
-    y: 670
-    width: 25
-    height: 22
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 1
-  - name: icons8-restaurant_menu_filled
-    x: 1822
-    y: 671
-    width: 25
-    height: 21
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 2
-    paddingBottom: 2
-  - name: icons8-shopping_cart
-    x: 1517
-    y: 736
-    width: 24
-    height: 24
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 1
+    paddingLeft: 39
+    paddingRight: 41
+    paddingTop: 0
     paddingBottom: 0
-  - name: icons8-shopping_cart_filled
-    x: 1681
-    y: 598
-    width: 24
-    height: 24
+  - name: order
+    x: 0
+    y: 334
+    width: 480
+    height: 480
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
     paddingLeft: 0
-    paddingRight: 1
-    paddingTop: 1
+    paddingRight: 0
+    paddingTop: 0
     paddingBottom: 0
-  - name: icons8-waiter
-    x: 1857
-    y: 765
-    width: 25
-    height: 23
+  - name: plus
+    x: 0
+    y: 815
+    width: 512
+    height: 512
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 1
-  - name: icons8-waiter_filled
-    x: 1517
-    y: 712
-    width: 25
-    height: 23
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 1
-    paddingBottom: 1
+    paddingTop: 0
+    paddingBottom: 0
   - name: restaurantslogo
     x: 0
     y: 1328
@@ -119,8 +67,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: UI_Icon_Aim
-    x: 721
-    y: 1429
+    x: 914
+    y: 403
     width: 101
     height: 101
     borderLeft: 0
@@ -132,8 +80,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_AlarmOff
-    x: 721
-    y: 1946
+    x: 0
+    y: 231
     width: 113
     height: 102
     borderLeft: 0
@@ -145,8 +93,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: UI_Icon_AlarmOn
-    x: 1903
-    y: 765
+    x: 1132
+    y: 1191
     width: 88
     height: 102
     borderLeft: 0
@@ -158,8 +106,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: UI_Icon_Archer
-    x: 944
-    y: 1732
+    x: 662
+    y: 95
     width: 103
     height: 105
     borderLeft: 0
@@ -171,8 +119,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 11
   - name: UI_Icon_ArrowDown
-    x: 1446
-    y: 1171
+    x: 1386
+    y: 341
     width: 92
     height: 102
     borderLeft: 0
@@ -184,8 +132,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: UI_Icon_ArrowLeft
-    x: 1015
-    y: 1147
+    x: 1311
+    y: 54
     width: 102
     height: 92
     borderLeft: 0
@@ -197,8 +145,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_ArrowRight
-    x: 1565
-    y: 1254
+    x: 1414
+    y: 145
     width: 102
     height: 92
     borderLeft: 0
@@ -210,8 +158,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_ArrowUp
-    x: 922
-    y: 1229
+    x: 1386
+    y: 238
     width: 92
     height: 102
     borderLeft: 0
@@ -223,8 +171,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: UI_Icon_Attack
-    x: 1041
-    y: 1444
+    x: 914
+    y: 709
     width: 101
     height: 101
     borderLeft: 0
@@ -236,8 +184,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_Award
-    x: 1403
-    y: 966
+    x: 1209
+    y: 883
     width: 86
     height: 103
     borderLeft: 0
@@ -249,8 +197,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Bag1
-    x: 1319
-    y: 1034
+    x: 1143
+    y: 987
     width: 83
     height: 107
     borderLeft: 0
@@ -262,8 +210,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_Bomb
-    x: 1647
-    y: 1059
+    x: 823
+    y: 1562
     width: 85
     height: 108
     borderLeft: 0
@@ -275,8 +223,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 10
   - name: UI_Icon_Book
-    x: 1943
-    y: 965
+    x: 929
+    y: 1243
     width: 83
     height: 109
     borderLeft: 0
@@ -288,8 +236,8 @@ MonoBehaviour:
     paddingTop: 9
     paddingBottom: 10
   - name: UI_Icon_Bookmark
-    x: 1681
-    y: 486
+    x: 1553
+    y: 353
     width: 72
     height: 106
     borderLeft: 0
@@ -301,8 +249,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_BtnDpad
-    x: 923
-    y: 1438
+    x: 976
+    y: 301
     width: 101
     height: 101
     borderLeft: 0
@@ -314,8 +262,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadDirDown
-    x: 1814
-    y: 1840
+    x: 976
+    y: 199
     width: 101
     height: 101
     borderLeft: 0
@@ -327,8 +275,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadDirLeft
-    x: 1258
-    y: 1633
+    x: 721
+    y: 1947
     width: 101
     height: 101
     borderLeft: 0
@@ -340,8 +288,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadDirRight
-    x: 1153
-    y: 1536
+    x: 721
+    y: 1845
     width: 101
     height: 101
     borderLeft: 0
@@ -353,8 +301,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadDirUp
-    x: 1916
-    y: 1759
+    x: 914
+    y: 505
     width: 101
     height: 101
     borderLeft: 0
@@ -366,8 +314,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadHorizontal
-    x: 1814
-    y: 1738
+    x: 721
+    y: 1743
     width: 101
     height: 101
     borderLeft: 0
@@ -379,8 +327,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnDpadVertical
-    x: 1709
-    y: 1735
+    x: 721
+    y: 1539
     width: 101
     height: 101
     borderLeft: 0
@@ -392,8 +340,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnL1
-    x: 573
-    y: 1044
+    x: 1701
+    y: 92
     width: 94
     height: 75
     borderLeft: 0
@@ -405,8 +353,8 @@ MonoBehaviour:
     paddingTop: 26
     paddingBottom: 27
   - name: UI_Icon_BtnL2
-    x: 1550
-    y: 706
+    x: 722
+    y: 1030
     width: 92
     height: 86
     borderLeft: 0
@@ -418,8 +366,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 21
   - name: UI_Icon_BtnL3
-    x: 1659
-    y: 1347
+    x: 1178
+    y: 331
     width: 99
     height: 98
     borderLeft: 0
@@ -431,8 +379,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_BtnPsCircle
-    x: 173
-    y: 1058
+    x: 1283
+    y: 1517
     width: 92
     height: 92
     borderLeft: 0
@@ -444,8 +392,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_BtnPsCircleRound
-    x: 1157
-    y: 1742
+    x: 871
+    y: 94
     width: 103
     height: 103
     borderLeft: 0
@@ -457,8 +405,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_BtnPsCross
-    x: 1764
-    y: 693
+    x: 1296
+    y: 904
     width: 92
     height: 95
     borderLeft: 0
@@ -470,8 +418,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 17
   - name: UI_Icon_BtnPsCrossRound
-    x: 721
-    y: 1633
+    x: 766
+    y: 94
     width: 104
     height: 103
     borderLeft: 0
@@ -483,8 +431,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_BtnPsSquare
-    x: 81
-    y: 1067
+    x: 1191
+    y: 1512
     width: 91
     height: 94
     borderLeft: 0
@@ -496,8 +444,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 16
   - name: UI_Icon_BtnPsSquareRound
-    x: 1731
-    y: 1944
+    x: 513
+    y: 1025
     width: 101
     height: 104
     borderLeft: 0
@@ -509,8 +457,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 11
   - name: UI_Icon_BtnPsTriangle
-    x: 1759
-    y: 1347
+    x: 1179
+    y: 139
     width: 104
     height: 92
     borderLeft: 0
@@ -522,8 +470,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_BtnPsTriangleRound
-    x: 1398
-    y: 1844
+    x: 975
+    y: 94
     width: 103
     height: 103
     borderLeft: 0
@@ -535,8 +483,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_BtnR1
-    x: 478
-    y: 1070
+    x: 1718
+    y: 16
     width: 94
     height: 75
     borderLeft: 0
@@ -548,8 +496,8 @@ MonoBehaviour:
     paddingTop: 26
     paddingBottom: 27
   - name: UI_Icon_BtnR2
-    x: 1643
-    y: 693
+    x: 1415
+    y: 446
     width: 92
     height: 86
     borderLeft: 0
@@ -561,8 +509,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 21
   - name: UI_Icon_BtnR3
-    x: 1248
-    y: 1336
+    x: 1078
+    y: 219
     width: 99
     height: 98
     borderLeft: 0
@@ -574,8 +522,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_BtnXboxA
-    x: 943
-    y: 866
+    x: 1392
+    y: 1815
     width: 68
     height: 94
     borderLeft: 0
@@ -587,8 +535,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_BtnXboxARound
-    x: 829
-    y: 1634
+    x: 766
+    y: 198
     width: 104
     height: 103
     borderLeft: 0
@@ -600,8 +548,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_BtnXboxB
-    x: 647
-    y: 916
+    x: 1324
+    y: 1717
     width: 67
     height: 98
     borderLeft: 0
@@ -613,8 +561,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_BtnXboxBRound
-    x: 1363
-    y: 1644
+    x: 914
+    y: 607
     width: 101
     height: 101
     borderLeft: 0
@@ -626,8 +574,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_BtnXboxX
-    x: 209
-    y: 1151
+    x: 1230
+    y: 1707
     width: 93
     height: 92
     borderLeft: 0
@@ -639,8 +587,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 19
   - name: UI_Icon_BtnXboxXRound
-    x: 1508
-    y: 1945
+    x: 871
+    y: 198
     width: 104
     height: 103
     borderLeft: 0
@@ -652,8 +600,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_BtnXboxY
-    x: 845
-    y: 1137
+    x: 1301
+    y: 1213
     width: 91
     height: 91
     borderLeft: 0
@@ -665,8 +613,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 19
   - name: UI_Icon_BtnXboxYRound
-    x: 1502
-    y: 1741
+    x: 714
+    y: 926
     width: 101
     height: 103
     borderLeft: 0
@@ -678,8 +626,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Camera
-    x: 1864
-    y: 1271
+    x: 1277
+    y: 242
     width: 108
     height: 88
     borderLeft: 0
@@ -691,8 +639,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 19
   - name: UI_Icon_CardClubs
-    x: 1857
-    y: 669
+    x: 1296
+    y: 808
     width: 92
     height: 95
     borderLeft: 0
@@ -704,8 +652,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 17
   - name: UI_Icon_CardDiamonds
-    x: 1490
-    y: 868
+    x: 1213
+    y: 774
     width: 82
     height: 108
     borderLeft: 0
@@ -717,8 +665,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 10
   - name: UI_Icon_CardHearts
-    x: 1871
-    y: 422
+    x: 1612
+    y: 77
     width: 88
     height: 83
     borderLeft: 0
@@ -730,8 +678,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 23
   - name: UI_Icon_CardSpades
-    x: 1205
-    y: 852
+    x: 1486
+    y: 655
     width: 83
     height: 95
     borderLeft: 0
@@ -743,8 +691,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 17
   - name: UI_Icon_Chainlink
-    x: 1157
-    y: 1638
+    x: 722
+    y: 1117
     width: 100
     height: 103
     borderLeft: 0
@@ -756,8 +704,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Chat
-    x: 1557
-    y: 1455
+    x: 1116
+    y: 634
     width: 105
     height: 94
     borderLeft: 0
@@ -769,8 +717,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_Checkbox
-    x: 1048
-    y: 1646
+    x: 111
+    y: 127
     width: 108
     height: 98
     borderLeft: 0
@@ -782,8 +730,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_Close
-    x: 1261
-    y: 1735
+    x: 733
+    y: 823
     width: 101
     height: 102
     borderLeft: 0
@@ -795,8 +743,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: UI_Icon_Cloud
-    x: 1604
-    y: 623
+    x: 1517
+    y: 161
     width: 112
     height: 69
     borderLeft: 0
@@ -808,8 +756,8 @@ MonoBehaviour:
     paddingTop: 29
     paddingBottom: 30
   - name: UI_Icon_Coin
-    x: 923
-    y: 1332
+    x: 1016
+    y: 418
     width: 94
     height: 105
     borderLeft: 0
@@ -821,8 +769,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 11
   - name: UI_Icon_Compass
-    x: 1871
-    y: 1086
+    x: 931
+    y: 1864
     width: 92
     height: 100
     borderLeft: 0
@@ -834,8 +782,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_Confirm
-    x: 1054
-    y: 1950
+    x: 333
+    y: 235
     width: 116
     height: 98
     borderLeft: 0
@@ -847,8 +795,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_Crown
-    x: 1143
-    y: 1445
+    x: 889
+    y: 3
     width: 111
     height: 90
     borderLeft: 0
@@ -860,8 +808,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_CurrencDollar
-    x: 1858
-    y: 977
+    x: 926
+    y: 1353
     width: 84
     height: 108
     borderLeft: 0
@@ -873,8 +821,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 10
   - name: UI_Icon_CurrencyBitcoin
-    x: 1474
-    y: 761
+    x: 1415
+    y: 533
     width: 75
     height: 106
     borderLeft: 0
@@ -886,8 +834,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_CurrencyEuro
-    x: 1220
-    y: 948
+    x: 1322
+    y: 1023
     width: 84
     height: 97
     borderLeft: 0
@@ -899,8 +847,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 16
   - name: UI_Icon_CurrencyPound
-    x: 689
-    y: 1219
+    x: 1235
+    y: 1861
     width: 78
     height: 107
     borderLeft: 0
@@ -912,8 +860,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_CurrencyRuble
-    x: 1717
-    y: 593
+    x: 1568
+    y: 555
     width: 78
     height: 99
     borderLeft: 0
@@ -925,8 +873,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_CurrencyWon
-    x: 1118
-    y: 1065
+    x: 1506
+    y: 55
     width: 105
     height: 89
     borderLeft: 0
@@ -938,8 +886,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 19
   - name: UI_Icon_CurrencyYen
-    x: 1950
-    y: 670
+    x: 1078
+    y: 1603
     width: 92
     height: 94
     borderLeft: 0
@@ -951,8 +899,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_Curves
-    x: 763
-    y: 1046
+    x: 1612
+    y: 8
     width: 105
     height: 68
     borderLeft: 0
@@ -964,8 +912,8 @@ MonoBehaviour:
     paddingTop: 30
     paddingBottom: 30
   - name: UI_Icon_Defend
-    x: 1772
-    y: 1062
+    x: 909
+    y: 1562
     width: 85
     height: 108
     borderLeft: 0
@@ -977,8 +925,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 10
   - name: UI_Icon_Delete
-    x: 1322
-    y: 1142
+    x: 1414
+    y: 41
     width: 91
     height: 103
     borderLeft: 0
@@ -990,8 +938,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_DeviceComputer
-    x: 1507
-    y: 977
+    x: 922
+    y: 1462
     width: 92
     height: 99
     borderLeft: 0
@@ -1003,8 +951,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_DevicePhone
-    x: 1016
-    y: 875
+    x: 1354
+    y: 1618
     width: 66
     height: 98
     borderLeft: 0
@@ -1016,8 +964,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_Edit
-    x: 1604
-    y: 1645
+    x: 721
+    y: 1335
     width: 103
     height: 99
     borderLeft: 0
@@ -1029,8 +977,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_Energy
-    x: 1977
-    y: 1349
+    x: 1671
+    y: 302
     width: 67
     height: 109
     borderLeft: 0
@@ -1042,8 +990,8 @@ MonoBehaviour:
     paddingTop: 9
     paddingBottom: 10
   - name: UI_Icon_Exit
-    x: 612
-    y: 1216
+    x: 1318
+    y: 696
     width: 76
     height: 111
     borderLeft: 0
@@ -1055,8 +1003,8 @@ MonoBehaviour:
     paddingTop: 8
     paddingBottom: 9
   - name: UI_Icon_FaithChristianity
-    x: 943
-    y: 961
+    x: 1314
+    y: 1816
     width: 72
     height: 93
     borderLeft: 0
@@ -1068,8 +1016,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 18
   - name: UI_Icon_FaithIslam
-    x: 388
-    y: 1136
+    x: 1322
+    y: 601
     width: 89
     height: 94
     borderLeft: 0
@@ -1081,8 +1029,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_FaithJudaism
-    x: 1458
-    y: 1429
+    x: 1121
+    y: 527
     width: 92
     height: 106
     borderLeft: 0
@@ -1094,8 +1042,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_FaithTaosim
-    x: 1305
-    y: 947
+    x: 1395
+    y: 751
     width: 94
     height: 86
     borderLeft: 0
@@ -1107,8 +1055,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 21
   - name: UI_Icon_FastForward
-    x: 1221
-    y: 1241
+    x: 1284
+    y: 147
     width: 100
     height: 94
     borderLeft: 0
@@ -1120,8 +1068,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_FileDocument
-    x: 869
-    y: 959
+    x: 1888
+    y: 60
     width: 73
     height: 95
     borderLeft: 0
@@ -1133,8 +1081,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 16
   - name: UI_Icon_FileFolder
-    x: 1122
-    y: 980
+    x: 1389
+    y: 938
     width: 97
     height: 84
     borderLeft: 0
@@ -1146,8 +1094,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 22
   - name: UI_Icon_Fill
-    x: 934
-    y: 1638
+    x: 513
+    y: 1130
     width: 113
     height: 93
     borderLeft: 0
@@ -1159,8 +1107,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 17
   - name: UI_Icon_Film
-    x: 1255
-    y: 1435
+    x: 1111
+    y: 729
     width: 101
     height: 98
     borderLeft: 0
@@ -1172,8 +1120,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_FilmPlay
-    x: 1255
-    y: 1534
+    x: 1040
+    y: 943
     width: 102
     height: 98
     borderLeft: 0
@@ -1185,8 +1133,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_Filter
-    x: 1054
-    y: 1849
+    x: 327
+    y: 27
     width: 111
     height: 100
     borderLeft: 0
@@ -1198,8 +1146,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_Fire
-    x: 1366
-    y: 751
+    x: 835
+    y: 815
     width: 76
     height: 103
     borderLeft: 0
@@ -1211,8 +1159,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Flag
-    x: 1573
-    y: 793
+    x: 1227
+    y: 1000
     width: 94
     height: 94
     borderLeft: 0
@@ -1224,8 +1172,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_FullscreenEnter
-    x: 1733
-    y: 965
+    x: 1013
+    y: 1268
     width: 94
     height: 96
     borderLeft: 0
@@ -1237,8 +1185,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_FullscreenExit
-    x: 1292
-    y: 1942
+    x: 333
+    y: 128
     width: 105
     height: 106
     borderLeft: 0
@@ -1250,8 +1198,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_GenderFemale1
-    x: 1400
-    y: 855
+    x: 1412
+    y: 640
     width: 73
     height: 110
     borderLeft: 0
@@ -1263,8 +1211,8 @@ MonoBehaviour:
     paddingTop: 9
     paddingBottom: 9
   - name: UI_Icon_GenderFemale2
-    x: 0
-    y: 865
+    x: 1229
+    y: 1100
     width: 79
     height: 107
     borderLeft: 0
@@ -1276,8 +1224,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_GenderMale1
-    x: 321
-    y: 1234
+    x: 1171
+    y: 1607
     width: 92
     height: 93
     borderLeft: 0
@@ -1289,8 +1237,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 18
   - name: UI_Icon_GenderMale2
-    x: 92
-    y: 959
+    x: 1221
+    y: 1208
     width: 79
     height: 107
     borderLeft: 0
@@ -1302,8 +1250,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_Gift
-    x: 1714
-    y: 1837
+    x: 227
+    y: 14
     width: 99
     height: 106
     borderLeft: 0
@@ -1316,7 +1264,7 @@ MonoBehaviour:
     paddingBottom: 11
   - name: UI_Icon_Globe
     x: 721
-    y: 1531
+    y: 1641
     width: 101
     height: 101
     borderLeft: 0
@@ -1328,8 +1276,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_Hammer
-    x: 1502
-    y: 1845
+    x: 615
+    y: 1030
     width: 106
     height: 99
     borderLeft: 0
@@ -1341,8 +1289,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_Heart
-    x: 1802
-    y: 789
+    x: 1108
+    y: 1294
     width: 100
     height: 90
     borderLeft: 0
@@ -1354,8 +1302,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 20
   - name: UI_Icon_HeartEmpty
-    x: 1701
-    y: 874
+    x: 1031
+    y: 1177
     width: 100
     height: 90
     borderLeft: 0
@@ -1367,8 +1315,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 20
   - name: UI_Icon_Home
-    x: 1049
-    y: 1745
+    x: 439
+    y: 25
     width: 107
     height: 103
     borderLeft: 0
@@ -1380,8 +1328,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Infinite
-    x: 742
-    y: 983
+    x: 1372
+    y: 1986
     width: 110
     height: 62
     borderLeft: 0
@@ -1393,8 +1341,8 @@ MonoBehaviour:
     paddingTop: 33
     paddingBottom: 33
   - name: UI_Icon_Info
-    x: 1018
-    y: 1240
+    x: 1079
+    y: 120
     width: 99
     height: 98
     borderLeft: 0
@@ -1406,8 +1354,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_InputController
-    x: 1075
-    y: 770
+    x: 1506
+    y: 4
     width: 103
     height: 50
     borderLeft: 0
@@ -1419,8 +1367,8 @@ MonoBehaviour:
     paddingTop: 38
     paddingBottom: 40
   - name: UI_Icon_InputJoystick
-    x: 303
-    y: 1132
+    x: 1207
+    y: 1410
     width: 84
     height: 101
     borderLeft: 0
@@ -1432,8 +1380,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_InputKeyboard
-    x: 467
-    y: 1002
+    x: 1796
+    y: 156
     width: 104
     height: 67
     borderLeft: 0
@@ -1445,8 +1393,8 @@ MonoBehaviour:
     paddingTop: 30
     paddingBottom: 31
   - name: UI_Icon_InvBelt
-    x: 1083
-    y: 821
+    x: 1813
+    y: 1
     width: 108
     height: 58
     borderLeft: 0
@@ -1458,8 +1406,8 @@ MonoBehaviour:
     paddingTop: 35
     paddingBottom: 35
   - name: UI_Icon_InvBoots
-    x: 0
-    y: 1243
+    x: 1026
+    y: 1779
     width: 104
     height: 84
     borderLeft: 0
@@ -1471,8 +1419,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 22
   - name: UI_Icon_InvChest
-    x: 763
-    y: 1115
+    x: 1591
+    y: 256
     width: 79
     height: 96
     borderLeft: 0
@@ -1484,8 +1432,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_InvCloak
-    x: 388
-    y: 1045
+    x: 1739
+    y: 321
     width: 78
     height: 90
     borderLeft: 0
@@ -1497,8 +1445,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_InvGloves
-    x: 105
-    y: 1162
+    x: 1131
+    y: 1800
     width: 103
     height: 84
     borderLeft: 0
@@ -1510,8 +1458,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 22
   - name: UI_Icon_InvHelmet
-    x: 668
-    y: 1015
+    x: 1790
+    y: 224
     width: 73
     height: 96
     borderLeft: 0
@@ -1523,8 +1471,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_Invisible
-    x: 1754
-    y: 441
+    x: 1255
+    y: 1984
     width: 116
     height: 64
     borderLeft: 0
@@ -1536,8 +1484,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: UI_Icon_InvPants
-    x: 1604
-    y: 521
+    x: 1570
+    y: 675
     width: 76
     height: 101
     borderLeft: 0
@@ -1549,8 +1497,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_InvPotion
-    x: 0
-    y: 1135
+    x: 1110
+    y: 1495
     width: 80
     height: 107
     borderLeft: 0
@@ -1562,8 +1510,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_InvRing
-    x: 1923
-    y: 868
+    x: 1015
+    y: 1476
     width: 94
     height: 96
     borderLeft: 0
@@ -1575,8 +1523,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_Key
-    x: 1398
-    y: 1948
+    x: 653
+    y: 201
     width: 109
     height: 100
     borderLeft: 0
@@ -1588,8 +1536,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_Leaf
-    x: 934
-    y: 1540
+    x: 835
+    y: 919
     width: 106
     height: 97
     borderLeft: 0
@@ -1601,8 +1549,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 17
   - name: UI_Icon_Like
-    x: 414
-    y: 1231
+    x: 1264
+    y: 1610
     width: 89
     height: 96
     borderLeft: 0
@@ -1614,8 +1562,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_List
-    x: 937
-    y: 1055
+    x: 1309
+    y: 1121
     width: 91
     height: 91
     borderLeft: 0
@@ -1627,8 +1575,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 19
   - name: UI_Icon_Location
-    x: 721
-    y: 1737
+    x: 545
+    y: 198
     width: 107
     height: 103
     borderLeft: 0
@@ -1640,8 +1588,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_LockLocked
-    x: 504
-    y: 1146
+    x: 1292
+    y: 1415
     width: 83
     height: 101
     borderLeft: 0
@@ -1653,8 +1601,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_LockUnlocked
-    x: 1964
-    y: 1075
+    x: 995
+    y: 1573
     width: 82
     height: 111
     borderLeft: 0
@@ -1666,8 +1614,8 @@ MonoBehaviour:
     paddingTop: 8
     paddingBottom: 9
   - name: UI_Icon_Loop
-    x: 1871
-    y: 1187
+    x: 919
+    y: 1965
     width: 112
     height: 83
     borderLeft: 0
@@ -1679,8 +1627,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 23
   - name: UI_Icon_Mail
-    x: 1796
-    y: 592
+    x: 1490
+    y: 777
     width: 101
     height: 76
     borderLeft: 0
@@ -1692,8 +1640,8 @@ MonoBehaviour:
     paddingTop: 26
     paddingBottom: 26
   - name: UI_Icon_Map
-    x: 1609
-    y: 1745
+    x: 627
+    y: 1221
     width: 99
     height: 106
     borderLeft: 0
@@ -1705,8 +1653,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_Medal
-    x: 1025
-    y: 1339
+    x: 1113
+    y: 838
     width: 95
     height: 104
     borderLeft: 0
@@ -1718,8 +1666,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 12
   - name: UI_Icon_Menu
-    x: 1289
-    y: 863
+    x: 1472
+    y: 854
     width: 95
     height: 83
     borderLeft: 0
@@ -1731,8 +1679,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 23
   - name: UI_Icon_Merge
-    x: 835
-    y: 1941
+    x: 114
+    y: 226
     width: 107
     height: 107
     borderLeft: 0
@@ -1744,8 +1692,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_MicOff
-    x: 1462
-    y: 1536
+    x: 1016
+    y: 721
     width: 94
     height: 106
     borderLeft: 0
@@ -1757,8 +1705,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_MicOn
-    x: 689
-    y: 1112
+    x: 1517
+    y: 231
     width: 73
     height: 106
     borderLeft: 0
@@ -1770,8 +1718,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_Mirror
-    x: 1769
-    y: 1440
+    x: 1001
+    y: 3
     width: 108
     height: 90
     borderLeft: 0
@@ -1783,8 +1731,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_Moon
-    x: 1122
-    y: 880
+    x: 1389
+    y: 838
     width: 82
     height: 99
     borderLeft: 0
@@ -1796,8 +1744,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_MultiPlayer
-    x: 1933
-    y: 1861
+    x: 665
+    y: 1
     width: 113
     height: 92
     borderLeft: 0
@@ -1809,8 +1757,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_MusicOff
-    x: 1613
-    y: 1958
+    x: 547
+    y: 4
     width: 117
     height: 90
     borderLeft: 0
@@ -1822,8 +1770,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_MusicOn
-    x: 1517
-    y: 615
+    x: 1508
+    y: 460
     width: 86
     height: 90
     borderLeft: 0
@@ -1835,8 +1783,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_NewPlayer
-    x: 1907
-    y: 1459
+    x: 924
+    y: 1137
     width: 106
     height: 95
     borderLeft: 0
@@ -1848,8 +1796,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 16
   - name: UI_Icon_OnOff
-    x: 826
-    y: 1526
+    x: 914
+    y: 811
     width: 96
     height: 107
     borderLeft: 0
@@ -1861,8 +1809,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_Pause
-    x: 845
-    y: 1237
+    x: 1392
+    y: 1730
     width: 76
     height: 84
     borderLeft: 0
@@ -1874,8 +1822,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 22
   - name: UI_Icon_Percentage
-    x: 1224
-    y: 1046
+    x: 1134
+    y: 1095
     width: 94
     height: 95
     borderLeft: 0
@@ -1887,8 +1835,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 17
   - name: UI_Icon_Photo
-    x: 504
-    y: 1248
+    x: 1147
+    y: 1969
     width: 107
     height: 79
     borderLeft: 0
@@ -1900,8 +1848,8 @@ MonoBehaviour:
     paddingTop: 25
     paddingBottom: 24
   - name: UI_Icon_Play
-    x: 1012
-    y: 784
+    x: 1421
+    y: 1639
     width: 62
     height: 90
     borderLeft: 0
@@ -1913,8 +1861,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_PlayBackwards
-    x: 1192
-    y: 761
+    x: 1376
+    y: 1527
     width: 62
     height: 90
     borderLeft: 0
@@ -1926,8 +1874,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_Plus
-    x: 1029
-    y: 974
+    x: 627
+    y: 1130
     width: 92
     height: 90
     borderLeft: 0
@@ -1939,8 +1887,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_Question
-    x: 1289
-    y: 759
+    x: 1491
+    y: 551
     width: 76
     height: 103
     borderLeft: 0
@@ -1952,8 +1900,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Refresh
-    x: 1171
-    y: 1954
+    x: 0
+    y: 31
     width: 120
     height: 94
     borderLeft: 0
@@ -1965,8 +1913,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_Reload
-    x: 1507
-    y: 1077
+    x: 927
+    y: 1685
     width: 103
     height: 89
     borderLeft: 0
@@ -1978,8 +1926,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 20
   - name: UI_Icon_Results
-    x: 105
-    y: 1247
+    x: 1031
+    y: 1698
     width: 109
     height: 80
     borderLeft: 0
@@ -1991,8 +1939,8 @@ MonoBehaviour:
     paddingTop: 24
     paddingBottom: 24
   - name: UI_Icon_Return
-    x: 1048
-    y: 1546
+    x: 816
+    y: 1017
     width: 104
     height: 99
     borderLeft: 0
@@ -2004,8 +1952,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_Rewind
-    x: 1118
-    y: 1155
+    x: 1210
+    y: 44
     width: 100
     height: 94
     borderLeft: 0
@@ -2017,8 +1965,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_RotateLeft
-    x: 0
-    y: 973
+    x: 1209
+    y: 1316
     width: 91
     height: 93
     borderLeft: 0
@@ -2030,8 +1978,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 18
   - name: UI_Icon_RotateRight
-    x: 1668
-    y: 780
+    x: 1222
+    y: 680
     width: 95
     height: 93
     borderLeft: 0
@@ -2043,8 +1991,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 18
   - name: UI_Icon_Sale
-    x: 1668
-    y: 1259
+    x: 823
+    y: 1862
     width: 107
     height: 87
     borderLeft: 0
@@ -2056,8 +2004,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 20
   - name: UI_Icon_Sandclock
-    x: 1984
-    y: 1248
+    x: 1461
+    y: 1885
     width: 62
     height: 100
     borderLeft: 0
@@ -2069,8 +2017,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_Save1
-    x: 1121
-    y: 1250
+    x: 1110
+    y: 21
     width: 99
     height: 98
     borderLeft: 0
@@ -2082,8 +2030,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_Save2
-    x: 1143
-    y: 1349
+    x: 1016
+    y: 524
     width: 104
     height: 95
     borderLeft: 0
@@ -2095,8 +2043,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 17
   - name: UI_Icon_Search
-    x: 1276
-    y: 1838
+    x: 513
+    y: 1224
     width: 103
     height: 103
     borderLeft: 0
@@ -2108,8 +2056,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 13
   - name: UI_Icon_Select
-    x: 1613
-    y: 1852
+    x: 513
+    y: 919
     width: 100
     height: 105
     borderLeft: 0
@@ -2121,8 +2069,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 11
   - name: UI_Icon_Settings
-    x: 1833
-    y: 1942
+    x: 614
+    y: 918
     width: 99
     height: 106
     borderLeft: 0
@@ -2134,8 +2082,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 11
   - name: UI_Icon_Share
-    x: 1465
-    y: 1643
+    x: 921
+    y: 1033
     width: 104
     height: 97
     borderLeft: 0
@@ -2147,8 +2095,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 15
   - name: UI_Icon_ShoppingCart
-    x: 1551
-    y: 1363
+    x: 1214
+    y: 542
     width: 107
     height: 91
     borderLeft: 0
@@ -2160,8 +2108,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 19
   - name: UI_Icon_Shuffle
-    x: 1933
-    y: 1954
+    x: 513
+    y: 823
     width: 111
     height: 94
     borderLeft: 0
@@ -2173,8 +2121,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_SinglePlayer
-    x: 572
-    y: 949
+    x: 1813
+    y: 61
     width: 74
     height: 94
     borderLeft: 0
@@ -2186,8 +2134,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 16
   - name: UI_Icon_Skip
-    x: 1600
-    y: 888
+    x: 1106
+    y: 1385
     width: 100
     height: 90
     borderLeft: 0
@@ -2199,8 +2147,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_SkipBack
-    x: 1668
-    y: 1168
+    x: 823
+    y: 1671
     width: 103
     height: 90
     borderLeft: 0
@@ -2212,8 +2160,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: UI_Icon_Skull
-    x: 1224
-    y: 1142
+    x: 823
+    y: 1950
     width: 95
     height: 98
     borderLeft: 0
@@ -2225,8 +2173,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_Sleep
-    x: 1809
-    y: 1531
+    x: 942
+    y: 928
     width: 97
     height: 104
     borderLeft: 0
@@ -2238,8 +2186,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 11
   - name: UI_Icon_Sliders
-    x: 1663
-    y: 1446
+    x: 1111
+    y: 430
     width: 105
     height: 93
     borderLeft: 0
@@ -2251,8 +2199,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 18
   - name: UI_Icon_SmileyDead
-    x: 721
-    y: 1327
+    x: 823
+    y: 1131
     width: 100
     height: 101
     borderLeft: 0
@@ -2264,8 +2212,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_SmileyHappy
-    x: 1916
-    y: 1657
+    x: 821
+    y: 1437
     width: 100
     height: 101
     borderLeft: 0
@@ -2277,8 +2225,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_SmileyLaughing
-    x: 1811
-    y: 1636
+    x: 828
+    y: 1233
     width: 100
     height: 101
     borderLeft: 0
@@ -2290,8 +2238,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_SmileyNeutral
-    x: 1708
-    y: 1633
+    x: 825
+    y: 1335
     width: 100
     height: 101
     borderLeft: 0
@@ -2303,8 +2251,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_SmileyUnhappy
-    x: 1912
-    y: 1555
+    x: 727
+    y: 1233
     width: 100
     height: 101
     borderLeft: 0
@@ -2316,8 +2264,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: UI_Icon_SocialFacebook
-    x: 1776
-    y: 1171
+    x: 823
+    y: 1762
     width: 94
     height: 99
     borderLeft: 0
@@ -2329,8 +2277,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_SocialInstagram
-    x: 1171
-    y: 1846
+    x: 222
+    y: 121
     width: 104
     height: 107
     borderLeft: 0
@@ -2342,8 +2290,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_SocialTwitter1
-    x: 1357
-    y: 1344
+    x: 1217
+    y: 443
     width: 99
     height: 98
     borderLeft: 0
@@ -2355,8 +2303,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_SocialTwitter2
-    x: 1828
-    y: 880
+    x: 1011
+    y: 1365
     width: 94
     height: 96
     borderLeft: 0
@@ -2368,8 +2316,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_SocialYoutube
-    x: 1754
-    y: 514
+    x: 1595
+    y: 477
     width: 97
     height: 77
     borderLeft: 0
@@ -2381,8 +2329,8 @@ MonoBehaviour:
     paddingTop: 25
     paddingBottom: 26
   - name: UI_Icon_SoundOff
-    x: 266
-    y: 1058
+    x: 1314
+    y: 1910
     width: 95
     height: 73
     borderLeft: 0
@@ -2394,8 +2342,8 @@ MonoBehaviour:
     paddingTop: 27
     paddingBottom: 28
   - name: UI_Icon_SoundOn
-    x: 1539
-    y: 1167
+    x: 918
+    y: 1775
     width: 107
     height: 86
     borderLeft: 0
@@ -2407,8 +2355,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 21
   - name: UI_Icon_Star
-    x: 943
-    y: 1944
+    x: 222
+    y: 229
     width: 110
     height: 104
     borderLeft: 0
@@ -2420,8 +2368,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 12
   - name: UI_Icon_StarEmpty
-    x: 721
-    y: 1841
+    x: 0
+    y: 126
     width: 110
     height: 104
     borderLeft: 0
@@ -2433,8 +2381,8 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 12
   - name: UI_Icon_Stats
-    x: 215
-    y: 1244
+    x: 1117
+    y: 1885
     width: 105
     height: 83
     borderLeft: 0
@@ -2446,8 +2394,8 @@ MonoBehaviour:
     paddingTop: 22
     paddingBottom: 23
   - name: UI_Icon_Stop
-    x: 1960
-    y: 418
+    x: 1630
+    y: 168
     width: 83
     height: 87
     borderLeft: 0
@@ -2459,8 +2407,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 21
   - name: UI_Icon_Stopwatch
-    x: 1414
-    y: 1070
+    x: 1024
+    y: 1864
     width: 92
     height: 100
     borderLeft: 0
@@ -2472,8 +2420,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_Sun
-    x: 1878
-    y: 1360
+    x: 1178
+    y: 232
     width: 98
     height: 98
     borderLeft: 0
@@ -2485,8 +2433,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: UI_Icon_Swap
-    x: 1600
-    y: 979
+    x: 1032
+    y: 1969
     width: 114
     height: 79
     borderLeft: 0
@@ -2498,8 +2446,8 @@ MonoBehaviour:
     paddingTop: 24
     paddingBottom: 25
   - name: UI_Icon_Target
-    x: 822
-    y: 1322
+    x: 1078
+    y: 318
     width: 99
     height: 99
     borderLeft: 0
@@ -2511,8 +2459,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_Text
-    x: 1950
-    y: 571
+    x: 1141
+    y: 1701
     width: 88
     height: 98
     borderLeft: 0
@@ -2524,8 +2472,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 16
   - name: UI_Icon_ToggleNext
-    x: 1443
-    y: 653
+    x: 1479
+    y: 338
     width: 73
     height: 107
     borderLeft: 0
@@ -2537,8 +2485,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 11
   - name: UI_Icon_TogglePrevious
-    x: 768
-    y: 1212
+    x: 1301
+    y: 1305
     width: 76
     height: 109
     borderLeft: 0
@@ -2550,8 +2498,8 @@ MonoBehaviour:
     paddingTop: 9
     paddingBottom: 10
   - name: UI_Icon_Trophy
-    x: 1380
-    y: 1746
+    x: 625
+    y: 820
     width: 107
     height: 97
     borderLeft: 0
@@ -2563,8 +2511,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 17
   - name: UI_Icon_TurnAround
-    x: 1360
-    y: 1544
+    x: 1011
+    y: 828
     width: 101
     height: 99
     borderLeft: 0
@@ -2576,8 +2524,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 15
   - name: UI_Icon_TurnLeft
-    x: 1358
-    y: 1443
+    x: 1016
+    y: 620
     width: 99
     height: 100
     borderLeft: 0
@@ -2589,8 +2537,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: UI_Icon_TurnRight
-    x: 823
-    y: 1422
+    x: 721
+    y: 1435
     width: 99
     height: 103
     borderLeft: 0
@@ -2602,8 +2550,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 11
   - name: UI_Icon_Versus
-    x: 1678
-    y: 1540
+    x: 779
+    y: 1
     width: 109
     height: 92
     borderLeft: 0
@@ -2615,8 +2563,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: UI_Icon_Visible
-    x: 1852
-    y: 506
+    x: 1626
+    y: 412
     width: 116
     height: 64
     borderLeft: 0
@@ -2628,8 +2576,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: UI_Icon_Warning
-    x: 829
-    y: 1738
+    x: 547
+    y: 101
     width: 114
     height: 96
     borderLeft: 0
@@ -2641,8 +2589,8 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: UI_Icon_Water
-    x: 588
-    y: 1120
+    x: 1714
+    y: 206
     width: 75
     height: 95
     borderLeft: 0
@@ -2654,8 +2602,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 16
   - name: UI_Icon_Wifi
-    x: 1457
-    y: 1274
+    x: 1278
+    y: 354
     width: 107
     height: 88
     borderLeft: 0
@@ -2667,8 +2615,8 @@ MonoBehaviour:
     paddingTop: 20
     paddingBottom: 20
   - name: UI_Icon_WifiProblem
-    x: 1570
-    y: 1550
+    x: 1026
+    y: 1042
     width: 107
     height: 94
     borderLeft: 0
@@ -2680,8 +2628,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 17
   - name: UI_Icon_Wrench
-    x: 1348
-    y: 1246
+    x: 1317
+    y: 444
     width: 97
     height: 97
     borderLeft: 0
@@ -2693,8 +2641,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 16
   - name: UI_Icon_ZoomIn
-    x: 832
-    y: 1835
+    x: 121
+    y: 15
     width: 105
     height: 105
     borderLeft: 0
@@ -2706,8 +2654,8 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 12
   - name: UI_Icon_ZoomOut
-    x: 943
-    y: 1838
+    x: 439
+    y: 129
     width: 105
     height: 105
     borderLeft: 0
