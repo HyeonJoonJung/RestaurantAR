@@ -89,6 +89,7 @@ public class Cart : MonoBehaviour
         ItemListing itemListing = itemListingGO.GetComponent<ItemListing>();
         itemListing.ItemName.text = food.Name;
         itemListing.ItemCount.text = "1";
+        itemListing.ApplyIcon();
         itemList.Add(itemListing);
     }
 

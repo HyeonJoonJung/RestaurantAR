@@ -218,6 +218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: {fileID: 4444406977710298556}
   ItemCount: {fileID: 7961141154754082283}
+  Icon: {fileID: 4444406977509194851}
+  foodIcons: {fileID: 11400000, guid: 69e82714bf2414703ade5d8ee3a28326, type: 2}
 --- !u!1 &4444406977509194849
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,8 +303,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: f95e07e3d350bf748b0c42b453a69d2e, type: 2}
-  mSpriteName: Orc Armor - Bracers
+  mAtlas: {fileID: 11400000, guid: 74d6d1fb2ce00400f9cd650486ac6faf, type: 2}
+  mSpriteName: restaurantslogo
   mFillCenter: 1
 --- !u!1 &4444406977710298554
 GameObject:
